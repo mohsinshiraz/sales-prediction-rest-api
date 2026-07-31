@@ -1,0 +1,6 @@
+# The frontend deliberately depends on only three packages - no scikit-learn,
+# no NumPy, no model artefact. This keeps the image small and means a model
+# retrain never requires a frontend rebuild.
+pandas==2.2.2
+requests==2.28.1
+streamlit==1.43.2
